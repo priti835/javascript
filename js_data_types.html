@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Data Types</h1>
+    <h3>javascript has 8 data types.</h3>
+     String <br>
+     Number<br>
+     Bigint<br>
+     Boolean<br>
+     Undefined<br>
+     Null<br>
+     Symbol<br>
+     Object
+
+     <h3>String</h3>
+     <p>when adding a number with string javascript treat a number as a string</p>
+     <p id="demo"></p>
+     <script>
+        let x = 10 + "ten";
+        document.getElementById("demo").innerHTML=x;
+
+     </script>
+     <hr>
+     <p>Javascript has a dynamic types. means the same variable can hold different data types.</p>
+     <p id="demo1"></p>
+     <script>
+        let y; // y is undefined
+        y=5; // y is number
+        y="hello"; // y is a string
+        document.getElementById("demo1").innerHTML=y
+     </script>
+     <h5>You can use quotes inside a string , as long as they don't match the quotes surroundings the string</h5>
+     <p id="demo2"></p>
+     <script>
+        let answer1 = "It's alright.";
+        let answer2="What a beautiful day!";
+        let answer3= 'My name is "Priti!!"';
+        document.getElementById("demo2").innerHTML=answer1+"<br>"+answer2+"<br>"+answer3;
+     </script>
+     <hr>
+     <h3>Javascript Numbers</h3>
+     Numbers can be written with or without decimals.
+     <p id="demo3"></p>
+     <script>
+        let a=10;
+        let b=2.0;
+        let c=20.10;
+        document.getElementById("demo3").innerHTML=a+"<br>"+b+"<br>"+c;
+     </script><hr>
+     <h3>Undefined</h3>
+     <script>
+        let z;
+        document.write(typeof(z));
+     </script>
+</body>
+</html>
