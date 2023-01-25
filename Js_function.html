@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Functions</h1>
+    <p>This ex call the function which performs a calculation, and returns, the result.</p>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+        document.getElementById("demo").innerHTML="Hello, this is the example of javascript function";
+        
+        }
+        myFunction();
+    </script>
+
+    <hr>
+    <h2>Function with parameter</h2>
+    <p id="demo1"></p>
+    <script>
+        function myFunction1(a,b){
+            return a*b;
+        }
+        document.getElementById("demo1").innerHTML=myFunction1(2,4);
+    </script>
+</body>
+</html>
